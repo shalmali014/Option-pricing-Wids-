@@ -1,8 +1,4 @@
 # Option-pricing 
-This repository showcases a range of Python programming, data analysis, and introductory machine learning concepts through hands-on Jupyter notebooks. It is structured to move from core fundamentals to applied financial and analytical projects.
-
-Contents include:
-
 This repository covers Python fundamentals through hands-on practice notebooks focused on variables, functions, loops, conditionals, and user input to build a strong programming foundation. It also includes problem-solving assessments and a simple console-based game to demonstrate logic building and control flow. In addition, the project explores data analysis and visualization for option pricing using NumPy and Matplotlib, and applies basic machine learning models such as linear and logistic regression using Pandas for data handling and graphical evaluation of results.
 
-
+This investigates data-driven approaches to option pricing using deep learning models, including a standard Multi-Layer Perceptron (MLP), a multi-task MLP for joint bid–ask prediction, and a Long Short-Term Memory (LSTM) network. The MLP models learn option prices directly from contract and market features, while the multi-task formulation captures bid–ask dynamics through shared representations. The LSTM model incorporates temporal information from historical underlying prices to implicitly learn volatility. In contrast to the Black–Scholes framework, which relies on restrictive parametric assumptions, these models learn non-linear pricing relationships directly from historical data, offering a flexible alternative for empirical option pricing.
